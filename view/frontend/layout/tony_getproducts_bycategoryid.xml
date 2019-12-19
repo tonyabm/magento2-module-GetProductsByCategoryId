@@ -1,0 +1,12 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
+    <head>
+        <css src="Tony_GetProductsByCategoryId::css/tony.css" />
+    </head>
+    <body>
+        <referenceContainer name="page.top">
+            <container name="tony.default.container" label="tony default container" htmlTag="div" htmlClass="tony-default-container">
+                <block class="Tony\GetProductsByCategoryId\Block\GetProducts" name="tony.getProducts" template="Tony_GetProductsByCategoryId::getProducts/byCategoryId.phtml" />
+            </container>
+        </referenceContainer>
+    </body>
+</page>
